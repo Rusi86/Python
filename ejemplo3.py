@@ -7,30 +7,30 @@ valor2=int(input("Introduce otro valor:"))
 
 
 print("Suma")
-total=valor1 + valor2
-print(f"La suma de {valor1} y {valor2} es:", total)
+total1=valor1 + valor2
+print(f"La suma de {valor1} y {valor2} es:", total1)
 
 
 print("Resta")
-total=valor1 - valor2
-print(f"La resta de {valor1} y {valor2} es:", total)
+total2=valor1 - valor2
+print(f"La resta de {valor1} y {valor2} es:", total2)
 
 
 print("Multiplicación")
-total=valor1 * valor2
-print(f"La multiplicación de {valor1} y {valor2} es:", total)
+total3=valor1 * valor2
+print(f"La multiplicación de {valor1} y {valor2} es:", total3)
 
 
 print("División")
-total=valor1 / valor2
-print(f"La división de {valor1} y {valor2} es:", total)
+total4=valor1 / valor2
+print(f"La división de {valor1} y {valor2} es:", round(total4, 2))
 
 
 print("Potencia")
-total=valor1 ** valor2
-print(f"El exponente de {valor1} y {valor2} es:", total)
+total5=valor1 ** valor2
+print(f"El exponente de {valor1} y {valor2} es:", total5)
 
 
 print("División entera")
-total=valor1 // valor2
-print(f"La división entera de {valor1} y {valor2} es:", total)
+total6=valor1 // valor2
+print(f"La división entera de {valor1} y {valor2} es:", total6)

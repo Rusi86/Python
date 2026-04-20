@@ -15,7 +15,7 @@ elif operador1.isupper():
     print(f"La letra es mayúscula")
     
 else :
-   print("La letra es mayúscula ¿?")
+    print("La letra es mayúscula ¿?")
 
 
 

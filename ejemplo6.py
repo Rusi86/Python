@@ -3,3 +3,16 @@
 print("Hola")
 
 
+peso=float(input("Introduce el peso en kg:"))
+altura=float(input("Introduce tu altura en metros:"))
+imc=peso/(altura**2)
+
+if imc < 25:
+    print(f"Si pesas {peso} kilos y mides {altura} ,tu IMC es: {round(imc, 2)} ")
+
+elif imc > 25:
+    print(f"Si pesas {peso} kilos y mides {altura} ,tu IMC es:, {round(imc, 2)} .Hay sobrepeso")
+
+
+
+

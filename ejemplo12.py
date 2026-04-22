@@ -5,16 +5,16 @@ print("Hola")
 
 operador1=input("Introduce una : ")
 
+if operador1.isalnum():
 
+    if operador1.islower():
+        print(f"La letra es minúscula")
 
-if operador1.islower():
-    print(f"La letra es minúscula")
+    elif operador1.isupper():
+        print(f"La letra es mayúscula")
 
-elif operador1.isupper():
-    print(f"La letra es mayúscula")
-
-elif operador1.isnumeric():
-    print(f"El valor introducido es un número")
-    
+    elif operador1.isnumeric():
+        print(f"El valor introducido es un número")
+        
 else:
-   print("El valor introducido es un símbolo")
+    print("El valor introducido es un símbolo")
